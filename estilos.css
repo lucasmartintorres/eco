@@ -4,13 +4,23 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-#btnSi {
+.btn {
+ background-color: #506ef5;
+ color: #ffff;
+ border-radius: 30px;
+ font-size: 22px;
+ font-family: Arial, Helvetica, sans-serif;
+ width: 50px;
+ 
+}
+
+/* #btnSi {
     background: transparent;
     border: 3px solid #506ef5;
     border-radius: 70px;
     padding: 10px 20px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 
 }
 
 #btnNo {
@@ -20,7 +30,7 @@ body {
     padding: 10px 20px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif
-}
+} */
 
 #btnSi:hover {
     background-color: #506ef5;
@@ -35,14 +45,14 @@ body {
     height: 0vmax;
     transform: translate(-50%,-50%);
     background: #506ef5;
-    border-radius: 50%;
+    border-radius: 70%;
     transition: all 1s ease;
     overflow: hidden;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .back.selected {
